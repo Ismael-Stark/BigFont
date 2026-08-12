@@ -4,7 +4,7 @@
  * Derived from https://github.com/wa1hco/BigFont
  *   Original library        (0.1)   by Tom Igoe and others
  * Modified work Copyright 2017 Gianluca Cassarino
- *
+ * https://github.com/gcassarino/BigFont
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
  * License as published by the Free Software Foundation; either
