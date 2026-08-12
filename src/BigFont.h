@@ -26,6 +26,7 @@
 // ensure this library description is only included once
 #ifndef BigFont_h
 #define BigFont_h
+#include <Arduino.h>
 #include <LiquidCrystal.h>
 
 #ifndef LiquidCrystal_h // Using the new LiquidCrystal library
