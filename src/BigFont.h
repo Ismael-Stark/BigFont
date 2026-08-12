@@ -28,15 +28,16 @@
 #define BigFont_h
 #include <Arduino.h>
 #include <LiquidCrystal.h>
+// #include <LiquidCrystal_I2C.h>
 
-#ifndef LiquidCrystal_h // Using the new LiquidCrystal library
-  #ifdef LiquidCrystal_4bit_h || LiquidCrystal_I2C_h || _LIQUIDCRYSTAL_SR_ || _LIQUIDCRYSTAL_SR2W_ || _LIQUIDCRYSTAL_SR3W_H_
-    #include <LiquidCrystal.h>
-    // #include <LiquidCrystal_I2C.h>
-  #else
-    #error You must install New LiquidCrystal library to work with non-4bit projects: http:/bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home
-  #endif
-#endif
+// #ifndef LiquidCrystal_h // Using the new LiquidCrystal library
+//   #ifdef LiquidCrystal_4bit_h || LiquidCrystal_I2C_h || _LIQUIDCRYSTAL_SR_ || _LIQUIDCRYSTAL_SR2W_ || _LIQUIDCRYSTAL_SR3W_H_
+//     #include <LiquidCrystal.h>
+//     // #include <LiquidCrystal_I2C.h>
+//   #else
+//     #error You must install New LiquidCrystal library to work with non-4bit projects: http:/bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home
+//   #endif
+// #endif
 
 // library interface description
 class BigFont {
